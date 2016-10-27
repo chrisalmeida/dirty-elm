@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "summary": "A module for elm global configuration.",
+    "repository": "https://github.com/chrisalmeida/dirty-elm.git",
+    "license": "BSD3",
+    "source-directories": [
+        ".",
+        "./Native"
+    ],
+    "native-modules": true,
+    "exposed-modules": ["Dirty"],
+    "dependencies": {
+        "elm-lang/core": "4.0.5 <= v < 5.0.0",
+        "elm-lang/html": "1.1.0 <= v < 2.0.0"
+    },
+    "elm-version": "0.17.1 <= v < 0.18.0"
+}
