@@ -4,7 +4,7 @@ window.csrfToken = "9283ui4n2k3ned09myCsrfToken"
 
 var _chrisalmeida$dirty_elm$Native_Dirty = function () {
     
-    function getApiBaseUrl (item) {
+    function getApiBaseUrl () {
         if (window.apiBaseUrl && typeof window.apiBaseUrl === "string") {
           return window.apiBaseUrl
         } else {
@@ -13,7 +13,6 @@ var _chrisalmeida$dirty_elm$Native_Dirty = function () {
     }
 
     function getCsrfToken () {
-        // var csrfToken = window.csrfToken
         if (window.csrfToken && typeof window.csrfToken === "string") {
             return window.csrfToken
         } else {
